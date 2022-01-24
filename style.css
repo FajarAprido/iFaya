@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Sedgwick+Ave&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300&family=Sedgwick+Ave&display=swap');
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Lobster', cursive;
+}
+.main{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(kopi1.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+.main2{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(kopi3.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+.main3{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(kopi6.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+.main4{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(kopi7.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+.main-body1{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(kopi2.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+.main-body2{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(kopi5.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+.top{
+	padding: 5px;
+}
+.main-top{
+	float: right;
+	list-style: none;
+	margin-top: 25px;
+}
+.main-top li{
+	display: inline-block;
+	text-decoration: none;
+}
+.main-top li a{
+	text-decoration: none;
+	color: white;
+	padding: 7px 20px;
+	border: 1px solid;
+	transition: 0.6s;
+	margin-top: 10px;
+	border-radius: 3px;
+}
+.main-top li a:hover{
+	background-color: white;
+	color: #000;
+}
+.main-top .menu-top a{
+	background-color: white;
+	color: #000;
+}
+.logo img{
+	float: left;
+	width: 100px;
+	height: auto;
+	display: flex;
+}
+.logo2 img{
+	float: right;
+	width: 150px;
+	height: auto;
+	display: flex;
+}
+.logo3 img{
+	width: 150px;
+	height: auto;
+	display: flex;
+}
+.logo3{
+	font-family: sans-serif;
+	color: white;
+}
+.judul{
+	position: absolute;
+	top: 30%;
+	left: 35%;
+	transform: translate(5%);
+}
+.judul2{
+	position: absolute;
+	top: 12%;
+	right: 9%;
+	transform: translate(5%);
+}
+.judul3{
+	position: absolute;
+	top: 35%;
+	right: 26%;
+	transform: translate(5%);
+}
+.judul4{
+	position: absolute;
+	top: 30%;
+	left: 36%;
+	transform: translate(5%);
+}
+.judul-body1{
+	position: absolute;
+	top: 120%;
+	left: 42%;
+	transform: translate(5%);
+}
+.judul-body2{
+	position: absolute;
+	top: 220%;
+	right: 25%;
+	transform: translate(5%);
+}
+.judul-body2 video{
+	width: 854px;
+	height: 480px;
+}
+.judul-body1 h2{
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	font-size: 55px;
+	text-align: center;
+
+}
+.judul-body2 h2{
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	text-align: center;
+	font-size: 55px;
+
+}
+.judul h1{
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	text-align: center;
+	font-size: 80px;
+
+}
+
+.judul2 h1{
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	text-align: center;
+	font-size: 55px;
+	border-bottom: 2px solid white;
+}
+.judul3 h1{
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	text-align: center;
+	font-size: 80px;
+}
+.judul3 h2{
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+}
+.judul4 h1{
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	text-align: center;
+	font-size: 80px;
+}
+.galery img{
+	margin-top: 310px;
+	padding: 5px 5px;
+	margin-bottom: 10px;
+	float: left;
+	width: 32%;
+	height: 320px;
+}
+.button{
+	position: absolute;
+	top: 70%;
+	left: 44%;
+	transform: translate(5%);
+}
+.button1{
+	border: 1px solid;
+	padding: 10px 30px;
+	color: white;
+	text-decoration: none;
+	transition: 0.6s ease;
+	border-radius: 5px;
+	margin: 5px;
+}
+.button1:hover{
+	background: radial-gradient(closest-corner, whitesmoke 10%, white 40%,  saddlebrown 70%);
+	color: #000;
+}
+.drink1{
+	color: white;
+	text-align: center;
+	word-spacing: 600px;
+	margin-top: 10px;	
+}
+.hero{
+	padding: 5% 0;
+	background:ghostwhite;
+}
+.hero-text h2{
+	font-size: 3em;
+	flex-basis: 50%;
+	font-family: 'Sedgwick Ave', cursive;
+}
+.hero-text a{
+	display: inline-block;
+	color: brown;
+	border: 1px solid;
+	text-decoration: none;
+	font-size: 2em;
+	
+}
+.hero p{
+	font-size: 2em;
+	line-height: 47px;
+	font-family: 'Sedgwick Ave', cursive;
+}
+.hero-img{
+	flex-basis: 50%;
+	width: 100%;
+}
+.hero1{
+	margin: 0 auto;
+	max-width: 1200px;
+	padding: 0 20px;
+	display: flex;
+}
+.p1{
+	margin: 10px;
+}
+.drink1 h3{
+	padding: 20px;
+}
+.drink1 p{
+	padding: 10px;
+}
+.food1{
+	color: white;
+	text-align: center;
+	word-spacing: 300px;
+	margin-top: 10px;	
+}
+.food1 h3{
+	padding: 20px;
+}
+.food1 p{
+	padding: 10px;
+}
+.form-control{
+	border-color: #ddd;
+    
+    text-transform: none;
+    background-color: #fff;
+    max-width: none;
+    box-sizing: border-box;
+}
+textarea {
+    width: 95%;
+    margin: 0;
+}
+input{
+	align-items: center;
+}
+button {
+    background-color: #c59d5f;
+    font-weight: 600;
+    text-transform: none;
+    padding: 1.1em 2.4em;
+}
+button {
+    background-color: #ed1e24;
+    color: #fff;
+    border: 0;
+    padding: 0.6em 1.4em;
+    cursor: pointer;
+    border-radius: 30px;
+    text-transform: uppercase;
+    letter-spacing: .065em;
+    transition: background .3s,color .3s,transform .3s;
+}
+.builder-contact-field {
+    flex-grow: 1;
+    justify-content: space-between;
+    padding-left: 3.5%;
+    width: 97%;
+    box-sizing: border-box;
+}
+.module .builder-contact-field-send {
+    margin-top: 1em;
+}
+.module .builder-contact-field {
+    margin: 0 0 0.5em;
+}
+.tf_rel {
+    position: relative;
+}
+.tf_textc {
+    text-align: center;
+}
+.tf_clear {
+    clear: both;
+}
+.wh{
+	text-align: center;
+	font-size: 50px;
+}
+input, textarea{
+     padding: 10px;
+     border:3px solid #e6e6e6;
+     border-radius: 5px;
+     margin-bottom: 15px; 
+}
+.flex{
+	padding-top: 1%;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	flex-direction: column;
+}
+.clearfix:before,
+.clearfix:after {
+content: "";
+display: table;
+}
+.clearfix:after {
+clear: both;
+}
+.clearfix {
+clear: both;
+*zoom: 1;
+}
